@@ -1,0 +1,19 @@
+# C build artifacts
+shell/*.o
+shell/forgeshell
+
+# deps / build output
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# runtime / debug
+.fsdbg.log
+*.log
+
+# editors / OS / tooling
+.DS_Store
+*.swp
+.vscode/
+.idea/
+.freebuff/

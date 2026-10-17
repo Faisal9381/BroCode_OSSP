@@ -1,0 +1,16 @@
+{
+  "name": "forgeshell-backend",
+  "version": "1.0.0",
+  "description": "ForgeShell web backend: Express + WebSocket + node-pty driving the real C shell",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-pty": "^1.0.0",
+    "ws": "^8.18.0"
+  }
+}

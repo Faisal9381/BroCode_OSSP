@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "@xterm/xterm/css/xterm.css";
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: #0a0e14;
+  color: #d5dde5;
+  font-family: ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+}
+
+/* thin dark scrollbars for the jobs panel */
+.thin-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.thin-scroll::-webkit-scrollbar-thumb {
+  background: #263041;
+  border-radius: 4px;
+}
+.thin-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
