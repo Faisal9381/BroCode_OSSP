@@ -1,0 +1,23 @@
+# Compiled binaries and object files
+*.o
+*.out
+adapter
+explorer
+file_explorer
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor & OS files
+.DS_Store
+.vscode/
+.idea/
